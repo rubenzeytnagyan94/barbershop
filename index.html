@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barber Shop — տղամարդկանց ժամանակակից սանրվածքներ, մորուքի խնամք և պրոֆեսիոնալ վարսավիրական ծառայություններ։">
+  <title>BARBER SHOP | Men's Grooming</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a class="logo" href="#home">
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Բացել մենյուն">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Գլխավոր</a>
+      <a href="#styles">Սանրվածքներ</a>
+      <a href="#services">Ծառայություններ</a>
+      <a href="#about">Մեր մասին</a>
+      <a href="#contact">Կապ</a>
+      <a href="#booking" class="nav-book">Ամրագրել այցը</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">ՊՐՈՖԵՍԻՈՆԱԼ ՏՂԱՄԱՐԴԿԱՆՑ ԽՆԱՄՔ</p>
+        <h1>ՔՈ ՈՃԸ՝<br><span>ՔՈ ԿԱՆՈՆՆԵՐԸ։</span></h1>
+        <p class="hero-description">
+          Ժամանակակից սանրվածքներ, կատարյալ մորուք և անհատական ոճ։
+          Բացահայտիր քո լավագույն տեսքը մեր մասնագետների հետ։
+        </p>
+        <div class="hero-buttons">
+          <a href="#styles" class="btn btn-gold">Դիտել սանրվածքները</a>
+          <a href="#booking" class="btn btn-outline">Ամրագրել այցը</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>10+</strong><span>Տարի փորձ</span></div>
+          <div><strong>25+</strong><span>Սանրվածքի ոճ</span></div>
+          <div><strong>100%</strong><span>Անհատական մոտեցում</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section styles-section" id="styles">
+      <div class="section-heading">
+        <p class="eyebrow">ԳՏԻՐ ՔՈ ՈՃԸ</p>
+        <h2>ՍԱՆՐՎԱԾՔՆԵՐԻ <span class="gold">ՈՃԵՐ</span></h2>
+        <p>Ընտրիր քեզ համապատասխան ոճը և ոգեշնչվիր մեր մասնագետների աշխատանքով։</p>
+      </div>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Բոլորը</button>
+        <button class="filter-btn" data-filter="fade">Fade</button>
+        <button class="filter-btn" data-filter="classic">Դասական</button>
+        <button class="filter-btn" data-filter="modern">Ժամանակակից</button>
+        <button class="filter-btn" data-filter="beard">Մորուք</button>
+      </div>
+
+      <div class="styles-grid">
+        <article class="style-card" data-category="fade">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=85" alt="Տղամարդկանց ժամանակակից վարսավիրանոց" loading="lazy">
+          <div class="style-info"><span class="style-number">01</span><h3>LOW FADE</h3><p>Նուրբ անցում և կոկիկ տեսք</p><span class="price">5,000 ֏</span></div>
+        </article>
+
+        <article class="style-card" data-category="modern">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=700&q=85" alt="Ժամանակակից տղամարդկանց սանրվածքի ձևավորում" loading="lazy">
+          <div class="style-info"><span class="style-number">02</span><h3>TEXTURED CROP</h3><p>Թրենդային և արտահայտիչ ոճ</p><span class="price">6,000 ֏</span></div>
+        </article>
+
+        <article class="style-card" data-category="classic">
+          <img src="imiges/clasic.png" alt="Դասական տղամարդկանց սանրվածք" loading="lazy">
+          <div class="style-info"><span class="style-number">03</span><h3>CLASSIC CUT</h3><p>Դասական էլեգանտություն</p><span class="price">5,000 ֏</span></div>
+        </article>
+
+        <article class="style-card" data-category="modern">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=700&q=85" alt="Տղամարդկանց ժամանակակից սանրվածքի խնամք" loading="lazy">
+          <div class="style-info"><span class="style-number">04</span><h3>UNDERCUT</h3><p>Համարձակ և յուրահատուկ ոճ</p><span class="price">6,000 ֏</span></div>
+        </article>
+
+        <article class="style-card" data-category="fade">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=700&q=85" alt="Տղամարդու կարճ սանրվածք" loading="lazy">
+          <div class="style-info"><span class="style-number">05</span><h3>BUZZ CUT</h3><p>Մինիմալիստական և կոկիկ</p><span class="price">4,000 ֏</span></div>
+        </article>
+
+        <article class="style-card" data-category="beard">
+          <img src="imiges/trash.png" alt="Տղամարդու մորուքի ձևավորում" loading="lazy">
+          <div class="style-info"><span class="style-number">06</span><h3>BEARD STYLE</h3><p>Մորուքի ճշգրիտ ձևավորում</p><span class="price">3,500 ֏</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="promo" id="about">
+      <div class="promo-image">
+        <img src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=1000&q=85" alt="Պրոֆեսիոնալ barber shop" loading="lazy">
+      </div>
+      <div class="promo-content">
+        <p class="eyebrow">ՄԵՐ ՓԻԼԻՍՈՓԱՅՈՒԹՅՈՒՆԸ</p>
+        <h2>ՈՃԸ ԹԱՔՆՎԱԾ Է <span class="gold">ՄԱՆՐՈՒՔՆԵՐՈՒՄ</span></h2>
+        <p>Մենք հավատում ենք, որ լավ սանրվածքը պարզապես արտաքին տեսք չէ։ Այն ինքնավստահություն է, անհատականություն և քո սեփական պատմությունը։</p>
+        <ul class="check-list">
+          <li>✓ Փորձառու մասնագետներ</li>
+          <li>✓ Որակյալ գործիքներ և խնամքի միջոցներ</li>
+          <li>✓ Յուրաքանչյուր հաճախորդի անհատական մոտեցում</li>
+        </ul>
+        <a href="#booking" class="btn btn-gold">Ամրագրել այցը</a>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">ՄԵՐ ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐԸ</p>
+        <h2>ՊՐՈՖԵՍԻՈՆԱԼ <span class="gold">ԽՆԱՄՔ</span></h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card"><span class="service-icon">✂</span><h3>Տղամարդկանց սանրվածք</h3><p>Դասականից մինչև ժամանակակից ոճեր</p><strong>5,000 ֏-ից</strong></article>
+        <article class="service-card"><span class="service-icon">♜</span><h3>Մորուքի ձևավորում</h3><p>Հստակ գծեր և խնամված տեսք</p><strong>3,500 ֏-ից</strong></article>
+        <article class="service-card"><span class="service-icon">◈</span><h3>Մազերի հարդարում</h3><p>Ամենօրյա և հատուկ առիթների համար</p><strong>2,500 ֏-ից</strong></article>
+        <article class="service-card"><span class="service-icon">★</span><h3>VIP համալիր</h3><p>Սանրվածք, մորուք և ամբողջական խնամք</p><strong>9,000 ֏-ից</strong></article>
+      </div>
+    </section>
+
+    <section class="booking-section" id="booking">
+      <div class="booking-wrap">
+        <div class="booking-text">
+          <p class="eyebrow">ՔՈ ՀԵՐԹՆ Է</p>
+          <h2>ԱՄՐԱԳՐԻՐ ՔՈ <span class="gold">ԱՅՑԸ</span></h2>
+          <p>Լրացրու տվյալները, և մենք կկապվենք քեզ հետ՝ այցի ժամը հաստատելու համար։</p>
+          <p class="booking-note">* Ամրագրումը հաստատվում է անձնակազմի հետ կապից հետո։</p>
+        </div>
+        <form id="bookingForm" class="booking-form">
+          <label for="clientName">Անուն</label>
+          <input id="clientName" name="name" type="text" placeholder="Քո անունը" required>
+
+          <label for="clientPhone">Հեռախոսահամար</label>
+          <input id="clientPhone" name="phone" type="tel" placeholder="+374 ..." required>
+
+          <label for="serviceSelect">Ծառայություն</label>
+          <select id="serviceSelect" name="service" required>
+            <option value="">Ընտրիր ծառայությունը</option>
+            <option>Տղամարդկանց սանրվածք</option>
+            <option>Մորուքի ձևավորում</option>
+            <option>Մազերի հարդարում</option>
+            <option>VIP համալիր</option>
+          </select>
+
+          <label for="bookingDate">Նախընտրելի ամսաթիվ</label>
+          <input id="bookingDate" name="date" type="date" required>
+
+          <button class="btn btn-gold submit-btn" type="submit">Ուղարկել ամրագրումը ↗</button>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">ՍՊԱՍՈՒՄ ԵՆՔ ՔԵԶ</p>
+      <h2>ՊԱՏՐԱՍՏ ԵՍ ՓՈԽԵԼ <span class="gold">ՈՃԴ՞</span></h2>
+      <p>Այցելիր մեզ մոտ քո տեսքը վստահիր բարձրակարգ մասնագետներին։</p>
+      <a href="#booking" class="btn btn-gold">Ամրագրել հիմա</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo footer-logo" href="#home"></a>
+    <p>Քո ոճը։ Քո կանոնները։</p>
+    <p class="copyright">© <span id="year"></span> BARBER SHOP. Տղամարդկային գեղեցկության արվեստը։</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
